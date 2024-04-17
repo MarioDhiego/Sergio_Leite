@@ -1,0 +1,40 @@
+---
+title: "Sérgio Leite"
+comments: false
+image: Sergio_Leite2_Capa.jpg
+about:
+  template: trestles
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:mario.valente@detran.pa.gov.br
+    # - icon: file-pdf
+    #   text: Resume
+    #   href: https://beatrizmilz.github.io/resume/index.pdf  
+    - icon: github
+      text: GitHub
+      href: https://github.com/MarioDhiego
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/beatrizmilz/  
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/dadoseambiente/   
+---
+
+```{=html}
+<style>
+  body{text-align: justify}
+</style>
+```
+::: {.btn-group role="group" aria-label="About"}
+<a href="about.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">English</button></a> <a href="about-pt.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">Português</button></a> <a href="about-es.html"><button type="button" class="btn btn-primary me-md-2 btn-sm">Español</button></a>
+:::
+
+::: {#hero-heading}
+Sérgio Leite é músico de Belém, nascido em 10/07/1964, é formado no curso de Licenciatura plena em Educação Artística com habilitação em música pela Universidade do Estado do Pará UEPA, foi professor e instrutor de cursos musicais no SESC, participou do coral da UEPA, foi professor de instrumentos musicais na casa da juventude – CAJU e possui curso de regência musical, dentre outros.
+
+Atua há 30 anos no ramo artístico, já participou de diversas bandas, destacando-se a Orquestra de Sopro do **Conservatório Carlos Gomes** onde atuou como percussionista e **Sayonara Show Band** como vocalista.
+
+Hoje, em carreira solo e atuando nos diversos espaços artísticos da cidade de Belém, inclui em seu repertório os mais variados gêneros musicais, o que garante um grande e diversificado público. Dos vários espetáculos que realiza se destaca o show que faz em homenagem a Raul Seixas, devido a grande semelhança do seu timbre vocal com a do Maluco Beleza, show esse, muito elogiado pela crítica e público.
+:::

@@ -1,0 +1,64 @@
+project:
+  type: website
+  preview:
+    port: 4200
+
+website:
+  page-navigation: true
+  title: "Sérgio Leite"
+  site-url: "https://beamilz.com/"
+  page-footer:
+    left: "Website made with [Quarto](https://quarto.org/), by Sérgio Leite. License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
+    right:
+      - icon: github
+        href: https://github.com/MarioDhiego/
+      - icon: instagram
+        href: https://www.instagram.com/slleite/
+      - icon: linkedin
+        href: https://www.linkedin.com/in/sergioleite/
+      - icon: envelope
+        href: mailto:sergio.leite@gmail.com
+  navbar:
+    right:
+      - text: Sobre
+        menu:
+          - text: English
+            href: about-usa.qmd
+          - text: Português
+            href: about-pt.qmd
+          - text: Español
+            href: about-es.qmd
+      - text: Prêmios
+        menu:
+          - text: Regional
+            href: premio.qmd
+          - text: Nacional
+          - text: Internacional
+      - text: ViodeClipes
+        menu:
+          - text: AlmaZen
+            href: musica1.qmd
+          - text: Louco de Nascença  
+            href: musica2.qmd
+      - text: Currículo
+        href: https://mariodhiego.github.io/
+      - icon: newspaper
+        href: https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7129591797797797888
+      - icon: github
+        href: https://github.com/beatrizmilz/blog-en
+      - icon: linkedin
+        href: https://www.linkedin.com/in/beatrizmilz/
+      
+lang: pt
+format:
+  html:
+    smooth-scroll: true
+    theme: cosmo
+    css: styles.css
+    citations-hover: true
+    footnotes-hover: true
+    toc: true
+    code-link: true
+
+editor: source
+

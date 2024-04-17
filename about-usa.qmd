@@ -1,0 +1,49 @@
+---
+title: "Sérgio Leite"
+comments: false
+image: Sergio_Leite2_Capa.jpg
+about:
+  template: trestles
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:milz.bea@gmail.com
+    # - icon: file-pdf
+    #   text: Resume
+    #   href: https://beatrizmilz.github.io/resume/index.pdf  
+    - icon: github
+      text: GitHub
+      href: https://github.com/beatrizmilz
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/beatrizmilz/  
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/dadoseambiente/   
+---
+
+```{=html}
+<style>
+  body{text-align: justify}
+</style>
+```
+
+::: {.btn-group role="group" aria-label="About"}
+<a href="about.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">English</button></a> <a href="about-pt.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">Português</button></a> <a href="about-es.html"><button type="button" class="btn btn-primary me-md-2 btn-sm">Español</button></a>
+:::
+
+
+
+::: {#hero-heading}
+Sérgio Leite has a PhD in Environmental Science. She is a researcher interested in topics such as: water resources management, transparency and open data, environmental data science, and gender and the environment.
+
+She advocates for Open Data, Open Science, and Open Source Software.
+
+Since 2018, she has been part of the technical team of the journal [Ambiente & Sociedade](https://www.scielo.br/j/asoc/).
+
+Since 2018, she has been an [R-Ladies co-organizer of the São Paulo chapter in Brazil](https://rladies-sp.org/).
+
+She is a [tidyverse instructor certified by RStudio](https://education.rstudio.com/trainers/people/milz+beatriz/). She teaches R in short courses at [Curso-R](https://curso-r.com/), [cebrap.lab](https://cebrap.org.br/cebrap-lab/), and the [Summer program at the Institute of Mathematics and Statistics (IME) – University of São Paulo (USP)](https://www.ime.usp.br/verao/).
+
+She is also a [GitHub Star](https://stars.github.com/profiles/beatrizmilz/), a recognition from GitHub for people who are experts and technical leaders who share their knowledge with the community. On 09/04/2024, there were only [73 GitHub Stars in the world](https://stars.github.com/profiles/), and [only 8 of them were located in Brazil](https://stars.github.com/profiles/?country=Brazil).
+:::

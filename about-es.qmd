@@ -1,0 +1,46 @@
+---
+title: "Sérgio Leite"
+comments: false
+image: Sergio_Leite2_Capa.jpg
+about:
+  template: trestles
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:milz.bea@gmail.com
+    # - icon: file-pdf
+    #   text: Resume
+    #   href: https://beatrizmilz.github.io/resume/index.pdf  
+    - icon: github
+      text: GitHub
+      href: https://github.com/beatrizmilz
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/beatrizmilz/  
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/dadoseambiente/   
+---
+
+```{=html}
+<style>
+  body{text-align: justify}
+</style>
+```
+::: {.btn-group role="group" aria-label="About"}
+<a href="about.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">English</button></a> <a href="about-pt.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">Português</button></a> <a href="about-es.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">Español</button></a>
+:::
+
+::: {#hero-heading}
+Beatriz Milz tiene un doctorado en Ciencia Ambiental. Es una investigadora interesada en temas como: gestión de recursos hídricos, transparencia y datos abiertos, ciencia de datos ambientales, y género y medio ambiente.
+
+Ella apoya los Datos Abiertos, la Ciencia Abierta y el Software de Código Abierto.
+
+Desde 2018, forma parte del equipo técnico de la revista [Ambiente & Sociedade](https://www.scielo.br/j/asoc/).
+
+Desde 2018, es [co-organizadora de R-Ladies São Paulo](https://rladies-sp.org/).
+
+Es una [instructora de tidyverse certificada por RStudio](https://education.rstudio.com/trainers/people/milz+beatriz/). Enseña R en cursos en [Curso-R](https://curso-r.com/), en [cebrap.lab](https://cebrap.org.br/cebrap-lab/), y en el [programa de Verano en el Instituto de Matemáticas y Estadística (IME) – Universidad de São Paulo (USP)](https://www.ime.usp.br/verao/).
+
+También es una [GitHub Star](https://stars.github.com/profiles/beatrizmilz/), un reconocimiento de GitHub para personas que son expertas y líderes técnicos que comparten su conocimiento con la comunidad. El 09/04/2024, había solo [73 GitHub Stars en el mundo](https://stars.github.com/profiles/), y [solo 8 de ellos en Brasil](https://stars.github.com/profiles/?country=Brazil).
+:::

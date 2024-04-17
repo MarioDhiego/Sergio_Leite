@@ -1,0 +1,40 @@
+---
+title: "Alma Zen"
+comments: false
+image: Sergio5.jpg
+about:
+  template: trestles
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:mario.valente@detran.pa.gov.br
+---
+
+
+```{=html}
+<style>
+  body{text-align: justify}
+</style>
+```
+
+::: {.btn-group role="group" aria-label="About"}
+<a href="about.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">English</button></a> <a href="about-pt.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">Português</button></a> <a href="about-es.html"><button type="button" class="btn btn-primary me-md-2 btn-sm">Español</button></a>
+:::
+
+::: {#hero-heading}
+
+**Musica : Alma Zen**
+
+Em 30 de julho de 2021, o cantor, compositor e escritor Sérgio Leite lança ‘Alma Zen’ no Sons do Pará. Com repertório variado, o paraense passeia com muito talento por vários gêneros musicais e escreve de forma sensível, atuando em diversos espaços artísticos.
+
+{{< video https://www.youtube.com/watch?v=BuChua5fllo width="550" height="375" start="5">}}
+
+
+“Alma Zen” é composição em parceria de Sérgio Leite e Dudu Neves, tem um ritmo rock romântico que envolve tanto na melodia, quanto na letra. Cantando a tranquilidade e as maneiras de reinventar e recomeçar, a música é um abraço suave em quem está fechando e abrindo novos ciclos na vida. Sobre a criação da música que está sendo lançada, o artista falou sobre como nasceu e qual a inspiração para a letra e melodia: "Às vezes eu penso num tema e começo a criar em cima dele, outras vezes, as coisas surgem de forma inerente. “Alma Zen” trata de uma relação onde a pessoa percebe, que a vida se renova e um novo amor pode ser decisivo para mudar tudo pra melhor”.
+
+
+O musicista falou um pouco sobre o seu processo criativo, desde a ideia à execução da obra, o artista se propõe à sua liberdade de criação, sem se amarrar a definições. Sérgio Leite é um artista completo que vai desde o seu cd autoral “Abicorando” que passeia pela sonoridade regional ao seu incrível “Sérgio Leite canta Raul Seixas”, trabalho muito elogiado pelo público e crítica. Essa dedicada versatilidade musical faz parte de seu livre flerte com a universalidade artística: “Sempre procurei compor sem me prender a um estilo, tanto na melodia quanto na letra, não gosto de clichês ou estereótipos que possam inibir minha criação. Minhas composições vão desde o regionalismo à temática universais”.
+
+
+
+:::

@@ -1,0 +1,31 @@
+---
+title: "Louco de Nascença"
+comments: false
+image: Sergio4.jpg
+about:
+  template: trestles
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:mario.valente@detran.pa.gov.br
+---
+
+
+```{=html}
+<style>
+  body{text-align: justify}
+</style>
+```
+
+::: {.btn-group role="group" aria-label="About"}
+<a href="about.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">English</button></a> <a href="about-pt.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">Português</button></a> <a href="about-es.html"><button type="button" class="btn btn-primary me-md-2 btn-sm">Español</button></a>
+:::
+  
+:::{#hero-heading}
+    
+**Musica : Louco de Nascença**
+      
+Em 30 de julho de 2021, o cantor, compositor e escritor Sérgio Leite lança ‘Alma Zen’ no Sons do Pará. Com repertório variado, o paraense passeia com muito talento por vários gêneros musicais e escreve de forma sensível, atuando em diversos espaços artísticos.
+    
+
+{{< video https://www.youtube.com/watch?v=ZaoUEV1JzpA width="550" height="375" start="5">}}

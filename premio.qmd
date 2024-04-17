@@ -1,0 +1,38 @@
+---
+title: "Prêmios"
+comments: false
+image: Sergio1.jpg
+about:
+  template: trestles
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:mario.valente@detran.pa.gov.br
+---
+
+```{=html}
+<style>
+  body{text-align: justify}
+</style>
+```
+::: {.btn-group role="group" aria-label="About"}
+<a href="about.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">English</button></a> <a href="about-pt.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">Português</button></a> <a href="about-es.html"><button type="button" class="btn btn-primary me-md-2 btn-sm">Español</button></a>
+:::
+
+::: {#hero-heading}
+Sérgio Leite desde os 14 anos de idade desenvolve trabalho de composição musical e literária. Suas composições vão do regionalismo à temáticas universais. Participou de diversos festivais de musica dentro e fora do Estado, conquistando vários prêmios como o de melhor intérprete, melhor arranjador e ate primeiro lugar.
+
+-   No seu trabalho, gravou, no ano de 2001, em parceria com outros músicos, o cd “Chora Açaí”.
+
+-   No ano de 2003, Sérgio Leite lançou seu primeiro cd solo, onde esta incluida a faixa: “Louco de Nascença” música de Sérgio Leite em parceria com a letra de Raul Seixas. Além das participações especiais de Nilson Chaves e Alcyr Guimarães.
+
+-   No ano de 2005 lançou o cd “**Sérgio Leite Canta Raul Seixas**”, uma coletânea de músicas de Raul Seixas.
+
+-   Participou de outros cds, como: Cd “Dois em um” desta vez na companhia de **Mario Mouzinho** e **Ivan Cardoso**. Cd segundo SERVIFEST no qual foi premiado como melhor interprete. CD “Porto do som”, Participou também do cd de Galdino Penna pelo projeto “O Uirapuru” da SECULT vol. 17.
+
+-   Participa em 2006 do cd do “Primeiro festival de musica de Icoarací,” onde conquistou os prêmios de melhor arranjo e primeiro lugar.
+
+-   Em 2010 grava no cd do Prêmio SESC de Música Tom Jobim, em Brasília DF, onde foi premiado com o 3º lugar.
+
+-   Em 2012 lança o cd autoral “Abicorando”, e em 2018 o trabalho mais recente, Moinhos do Tempo.
+:::
