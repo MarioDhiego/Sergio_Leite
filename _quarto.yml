@@ -7,18 +7,16 @@ project:
 website:
   page-navigation: true
   title: "Sérgio Leite"
-  site-url: "https://beamilz.com/"
+  site-url: "https://mariodhiego.github.io/Sergio_Leite/"
   page-footer:
-    left: "Website made with [Quarto](https://quarto.org/), by Sérgio Leite. License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
+    left: "Website made with [Quarto](https://quarto.org/), by Dhiego. License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
     right:
       - icon: github
+        text: Suporte Técnico
         href: https://github.com/MarioDhiego/
-      - icon: instagram
-        href: https://www.instagram.com/slleite/
-      - icon: linkedin
-        href: https://www.linkedin.com/in/sergioleite/
       - icon: envelope
-        href: mailto:sergio.leite@gmail.com
+        text: Email
+        href: mailto:diego.vatente@gmail.com
   navbar:
     right:
       - text: Sobre
@@ -35,27 +33,41 @@ website:
             href: premio.qmd
           - text: Nacional
           - text: Internacional
+      - text: Streaming
+        menu:
+          - text: Spotify
+          - text: Soundcloud 
+          - text: Deezer
       - text: ViodeClipes
         menu:
           - text: AlmaZen
             href: musica1.qmd
           - text: Louco de Nascença  
             href: musica2.qmd
+          - text: Abicorando
+          - text: Tempo Cigano
+          - text: Não Pode Me Ferir
       - text: Currículo
-        href: https://mariodhiego.github.io/
-      - icon: newspaper
-        href: https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7129591797797797888
-      - icon: github
-        href: https://github.com/beatrizmilz/blog-en
+        href: https://github.com/MarioDhiego/CURRICULUM_VITAE/blob/main/Curruculum_Vitae.pdf/
+      - icon: spotify 
+        href: https://open.spotify.com/intl-pt/
+      - icon: instagram
+        href: https://www.instagram.com/slleite/
       - icon: linkedin
         href: https://www.linkedin.com/in/beatrizmilz/
+      - icon: youtube
+        href: https://www.youtube.com/@sergioleite6580/
       
 lang: pt
 format:
   html:
     smooth-scroll: true
-    theme: cosmo
-    css: styles.css
+    theme: 
+      - pulse
+      - custom.scss
+    link-external-icon: false
+    link-external-newwindow: true
+    link-external-filter: '^(?:http:|https:)\/\/www\.beamilz\.com\/**'
     citations-hover: true
     footnotes-hover: true
     toc: true

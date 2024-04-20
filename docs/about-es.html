@@ -61,7 +61,6 @@ ul.task-list li input[type="checkbox"] {
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -114,6 +113,15 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-streaming" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Streaming</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-streaming">    
+        <li class="dropdown-header">Spotify</li>
+        <li class="dropdown-header">Soundcloud</li>
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-viodeclipes" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">ViodeClipes</span>
     </a>
@@ -126,24 +134,32 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="./musica2.html" rel="" target="">
  <span class="dropdown-text">Louco de Nascença</span></a>
   </li>  
+        <li class="dropdown-header">Abicorando</li>
+        <li class="dropdown-header">Tempo Cigano</li>
+        <li class="dropdown-header">Não Pode Me Ferir</li>
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="https://mariodhiego.github.io/" rel="" target="">
+    <a class="nav-link" href="https://github.com/MarioDhiego/CURRICULUM_VITAE/blob/main/Curruculum_Vitae.pdf/" rel="" target="">
  <span class="menu-text">Currículo</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7129591797797797888" rel="" target=""><i class="bi bi-newspaper" role="img">
+    <a class="nav-link" href="https://open.spotify.com/intl-pt/" rel="" target=""><i class="bi bi-spotify" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/beatrizmilz/blog-en" rel="" target=""><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://www.instagram.com/slleite/" rel="" target=""><i class="bi bi-instagram" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://www.linkedin.com/in/beatrizmilz/" rel="" target=""><i class="bi bi-linkedin" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/@sergioleite6580/" rel="" target=""><i class="bi bi-youtube" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -434,40 +450,36 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("^(?:http:|https:)\/\/www\.beamilz\.com\/**");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Website made with <a href="https://quarto.org/">Quarto</a>, by Sérgio Leite. License: <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.</div>   
+    <div class="nav-footer-left">Website made with <a href="https://quarto.org/">Quarto</a>, by Dhiego. License: <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.</div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/MarioDhiego/">
-      <i class="bi bi-github" role="img">
-</i> 
-    </a>
+    <li class="nav-item">
+    <a class="nav-link" href="https://github.com/MarioDhiego/">Suporte Técnico</a>
   </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://www.instagram.com/slleite/">
-      <i class="bi bi-instagram" role="img">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/sergioleite/">
-      <i class="bi bi-linkedin" role="img">
-</i> 
-    </a>
-  </li>  
-    <li class="nav-item compact">
-    <a class="nav-link" href="mailto:sergio.leite@gmail.com">
-      <i class="bi bi-envelope" role="img">
-</i> 
-    </a>
+    <li class="nav-item">
+    <a class="nav-link" href="mailto:diego.vatente@gmail.com">Email</a>
   </li>  
 </ul>
     </div>
